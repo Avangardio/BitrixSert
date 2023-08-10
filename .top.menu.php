@@ -29,12 +29,12 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
-	Array(
-		"Контакты", 
-		"contacts/", 
-		Array(), 
-		Array(), 
-		"" 
-	)
+    Array(
+        "Партнерам",
+        "partners/",
+        Array(),
+        Array(),
+        ""
+    ),
 );
 ?>
