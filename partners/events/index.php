@@ -2,7 +2,7 @@
 define("NEED_AUTH", true);
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 
-$APPLICATION->SetTitle("Условия сотрудничества");
+$APPLICATION->SetTitle("Анонсы");
 ?>
 
 <p><a href="<?=SITE_DIR?>">Вернуться на главную страницу</a></p>
