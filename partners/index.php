@@ -2,7 +2,7 @@
 define("NEED_AUTH", true);
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 
-$APPLICATION->SetTitle("Условия сотрудничества");
+$APPLICATION->SetTitle("Условия сотрудничества", ["SET_TITLE" => "N"]);
 ?>
 <b>Ну то есть типа? Ну типа...</b>
 <p><a href="<?=SITE_DIR?>">Вернуться на главную страницу</a></p>
