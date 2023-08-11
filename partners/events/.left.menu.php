@@ -1,20 +1,19 @@
-<?
-if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 <?
 $aMenuLinks = Array(
-    Array(
-        "Активности",
-        "./events/",
-        Array(),
-        Array(),
-        ""
-    ),
-    Array(
-        "Архив",
-        "archive.php",
-        Array(),
-        Array(),
-        ""
-    ),
+	Array(
+		"Анонсы",
+		"./",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Архив",
+		"archive.php",
+		Array(),
+		Array(),
+		""
+	),
 );
 ?>
